@@ -1,0 +1,119 @@
+/* Global Styles */
+body {
+    background-color: #f8e8f7; /* Light pink background */
+    font-family: 'Roboto', sans-serif;
+    color: #333; /* Text color */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header and Footer styling */
+header, footer {
+    background-color: #ffcad6; /* Pink */
+    text-align: center;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+}
+
+/* Header text (H1, H2, H3) styling */
+h1, h2, h3 {
+    color: #d65454; /* White text */
+    font-weight: bold;
+}
+
+h1 {
+    font-family: 'Great Vibes', cursive; /* Dainty font for the header */
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+/* Navigation Menu Styling */
+nav {
+    background-color: #ffc0cf; /* Pink for the navigation */
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+nav a {
+    color: rgb(255, 255, 255); /* White text for links */
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    font-family: 'Cookie', cursive; /* Dainty font for links */
+    transition: color 0.3s ease; /* Smooth transition for hover */
+}
+
+nav a:hover {
+    color: #ff1493; /* Change link color on hover */
+}
+
+/* List styling */
+ul {
+    list-style-type: disc;
+    padding-left: 40px;
+}
+
+/* Footer styling */
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Table styling */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #ffffff; /* White background for table */
+}
+
+th, td {
+    border: 1px solid #ff6f91; /* Pink borders */
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #ff6f91; /* Pink background for table headers */
+    color: rgb(255, 255, 255);
+}
+
+/* Aside styling */
+aside {
+    background-color: #ffffff9b; /* Blue background for aside */
+    padding: 15px;
+    border: 1px solid #ff6f91; /* Pink border */
+    margin: 20px 0;
+}
+
+/* Photo Spot */
+.photo-spot {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.photo-spot img {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #ff6f91; /* Pink border for images */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    transition: transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.photo-spot img:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
